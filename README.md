@@ -47,8 +47,8 @@ Environment Variables
 
 The container is configurable through the following environment variables:
 
-* **`GCA_TIMEZONE`** *(optional, defaults to America/Los_Angeles)*  
-  Timezone for the processes.
+* **`GCA_TIMEZONE`** *(optional)*  
+  Timezone for the processes; defaults to `America/Los_Angeles`.
 
 * **`GCA_ANALYZE_AUTHOR`** *(required)*  
 	The commit email address of the author whose contributions you are analyzing.
@@ -67,8 +67,8 @@ The container is configurable through the following environment variables:
 	Inside of `GCA_OUTPUT_REPO`, the relative path of the directory in which
 	contribution statistics should be stored.
 
-* **`GCA_ANALYZE_ON_STARTUP`** *(optional, defaults to no)*  
-	Set this to `yes` to trigger an analysis on container startup.
+* **`GCA_ANALYZE_ON_STARTUP`** *(optional)*  
+	Set this to `yes` to trigger an analysis on container startup; defaults to `no`.
 
 
 Copyright
