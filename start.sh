@@ -6,7 +6,7 @@ export TZ="/usr/share/zoneinfo/${GCA_TIMEZONE}"
 echo "Date: `date`."
 
 # Set up crontab.
-touch $CRONTAB
+echo "" > $CRONTAB
 echo "TZ=${GCA_TIMEZONE}" >> $CRONTAB
 echo "${GCA_SCHEDULE} /app/analyze.sh" >> $CRONTAB
 
