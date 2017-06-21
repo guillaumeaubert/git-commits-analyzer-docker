@@ -5,8 +5,8 @@ Docker Image for ruby-git-commits-analyzer
 Code Status
 -----------
 
-[![Docker Build Status](https://img.shields.io/docker/build/aubertg/ruby-git-commits-analyzer-docker.svg)](https://hub.docker.com/r/aubertg/ruby-git-commits-analyzer-docker/builds/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/aubertg/ruby-git-commits-analyzer-docker.svg)](https://hub.docker.com/r/aubertg/ruby-git-commits-analyzer-docker/)
+[![Docker Build Status](https://img.shields.io/docker/build/aubertg/git-commits-analyzer-docker.svg)](https://hub.docker.com/r/aubertg/git-commits-analyzer-docker/builds/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/aubertg/git-commits-analyzer-docker.svg)](https://hub.docker.com/r/aubertg/git-commits-analyzer-docker/)
 
 
 Overview
